@@ -227,3 +227,12 @@ ul{
     font-size: 20px;
     font-family: 'Space Mono', monospace;
 }
+
+
+
+@media screen and (max-width: 1075px) {
+    .main-section{
+        display: flex;
+        flex-wrap: wrap;
+    }
+  }
