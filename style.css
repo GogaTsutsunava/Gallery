@@ -237,14 +237,15 @@ ul{
     }
     .navigation{
         display: flex;
-        justify-content: space-between;
+        flex-wrap: wrap;
+        text-align: center;
   }
 }
-@media screen and (max-width: 610px) {
+/* @media screen and (max-width: 610px) {
     .navigation{
         display: block;
         margin-left: auto;
         margin-right:auto
     }
     
-}
+} */
