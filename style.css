@@ -228,11 +228,23 @@ ul{
     font-family: 'Space Mono', monospace;
 }
 
+/* for mobile version */
 
-
-@media screen and (max-width: 1075px) {
+@media screen and (max-width: 1114px) {
     .main-section{
         display: flex;
         flex-wrap: wrap;
     }
+    .navigation{
+        display: flex;
+        justify-content: space-between;
   }
+}
+@media screen and (max-width: 610px) {
+    .navigation{
+        display: block;
+        margin-left: auto;
+        margin-right:auto
+    }
+    
+}
